@@ -1,1 +1,10 @@
-
+#include"stdio.h"
+int main () {
+	float a, b;
+	printf("Nhap vao gia tri a = ");
+	scanf("%d", a) ;
+	printf("\nNhap vao gia tri b = ");
+	scanf ("%d", b);
+	float tong = a + b;
+	printf("\n %d + %d = %d", a, b, tong);
+}
